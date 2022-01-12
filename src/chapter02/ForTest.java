@@ -10,7 +10,7 @@ public class ForTest {
 
         int x;
 
-        for(x = 0; x<10; x = x+1)
+        for(x = 0; x<10; x++)
             System.out.println("Значение x = " + x);
     }
 
