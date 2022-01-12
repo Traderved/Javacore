@@ -15,5 +15,7 @@ public class Example2 {
         num = num * 2;
         System.out.print("Знaчeниe переменной num * 2 равно ") ;
         System.out.println(num) ;
+
+        //после этого задания залил все на GitHub и закомитил
     }
 }
