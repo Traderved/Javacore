@@ -8,3 +8,5 @@ public class ForTick {
             System.out.println("takt " + n);
     }
 }
+
+// | tak:  for(int n = 10; n>0; n--)  bez polia int n;
