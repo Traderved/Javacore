@@ -3,7 +3,7 @@ package chapter05;
 public class Menu {
     public static void main(String[] args)
 
-        throws java.io.IOException {
+        throws java.io.IOException { //составная часть системы обработки исключений
             char choice;
 
             do {
@@ -14,7 +14,7 @@ public class Menu {
                 System.out.println("    4. do-while");
                 System.out.println("    5. for\n");
                 System.out.println("Viberi nuzniy punkt:");
-                choice = (char) System.in.read();
+                choice = (char) System.in.read(); // вводим символ
             } while (choice < '1' || choice > '5');
 
             System.out.println("\n");
